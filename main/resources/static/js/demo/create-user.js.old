@@ -1,0 +1,35 @@
+$(document).ready(function () {
+
+});
+
+async function createPersona() {
+
+    let persona = {};
+    persona.name = $("#txtFirstName").val();
+    persona.surname = $("#txtLastName").val();
+    persona.email = $("#txtInputEmail").val();
+    persona.phone = $("#txtInputPhone").val();
+    persona.pass = $("#txtInputPassword").val();
+
+    let repeatPassword = $("#txtRepeatPassword").val();
+
+    // if (!persona.password == repeatPassword){
+    //     alert("Passwords do not match!");
+    //     return;
+    // } else if (Object.keys(persona.password).length < 6){
+    //     alert("Your password is too short! Use at least 6 letters");
+    // }
+
+    const createPersonaRequest = await $.ajax({
+
+        type: "POST",
+        url: "api/personas",
+        contentType: 'application/json',
+        headers: {
+            "Accepts": "text/plain"
+          },
+        body: JSON.stringify(persona),
+
+    });
+
+}
