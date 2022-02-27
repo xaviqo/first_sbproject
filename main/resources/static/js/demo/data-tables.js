@@ -1,7 +1,17 @@
 $(document).ready(function () {
     loadPersonas();
     $('#dataTable').DataTable();
+
+    getUserEmail();
 });
+
+function getHeaders() {
+    return {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+        'Authorization': localStorage.token
+    };
+}
 
 async function loadPersonas() {
 
@@ -30,11 +40,8 @@ async function loadPersonas() {
 
 }
 
-function getHeaders() {
-    return {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json',
-    };
+function getUserEmail() {
+    document.querySelector('#txtUserEmail').innerHTML=localStorage.email;
 }
 
 async function deletePersona(id) {
