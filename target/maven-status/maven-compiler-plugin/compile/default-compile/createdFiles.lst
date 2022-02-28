@@ -1,0 +1,8 @@
+com/xt/xtech/ServletInitializer.class
+com/xt/xtech/dao/PersonaDAO.class
+com/xt/xtech/controllers/AuthController.class
+com/xt/xtech/controllers/PersonaController.class
+com/xt/xtech/utils/JWTUtil.class
+com/xt/xtech/dao/PersonaDAOImp.class
+com/xt/xtech/XtechApplication.class
+com/xt/xtech/models/Persona.class

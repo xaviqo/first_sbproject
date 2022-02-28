@@ -1,0 +1,8 @@
+/home/xavi/Desktop/MINE/learn/xtech/src/main/java/com/xt/xtech/ServletInitializer.java
+/home/xavi/Desktop/MINE/learn/xtech/src/main/java/com/xt/xtech/XtechApplication.java
+/home/xavi/Desktop/MINE/learn/xtech/src/main/java/com/xt/xtech/controllers/AuthController.java
+/home/xavi/Desktop/MINE/learn/xtech/src/main/java/com/xt/xtech/utils/JWTUtil.java
+/home/xavi/Desktop/MINE/learn/xtech/src/main/java/com/xt/xtech/dao/PersonaDAOImp.java
+/home/xavi/Desktop/MINE/learn/xtech/src/main/java/com/xt/xtech/models/Persona.java
+/home/xavi/Desktop/MINE/learn/xtech/src/main/java/com/xt/xtech/dao/PersonaDAO.java
+/home/xavi/Desktop/MINE/learn/xtech/src/main/java/com/xt/xtech/controllers/PersonaController.java
