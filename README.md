@@ -1,6 +1,6 @@
 Client Manager - My first Spring Boot API
 =
-This project it's not made to solve any specific need apart from learning how to apply different technologies.
+This project it's not made to solve any specific need, apart from learning how to apply different technologies.
 
 ## Used technologies
 
@@ -19,7 +19,7 @@ This project it's not made to solve any specific need apart from learning how to
 
 ## Images
 
-> Password is encripted with Argon2 and saved in the DB to avoid anyone to know your password, even the system administrador.
+> Password is encripted with Argon2 and saved in the DB to avoid anyone to know your password, even the system administrador can't see it.
 ![mysql](https://i.imgur.com/WQdnn0U.png "Screenshoot of the Database")
 
 
