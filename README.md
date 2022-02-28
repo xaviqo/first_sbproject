@@ -1,6 +1,6 @@
 Client Manager - My first Spring Boot API
 =
-I've done this project just to learn how to use different technologies, it's not made for an specific need but for learning how to do it.
+This project it's not made to solve any specific need apart from learning how to apply different technologies.
 
 ## Used technologies
 
@@ -16,3 +16,15 @@ I've done this project just to learn how to use different technologies, it's not
 - Register
 - Login
 - List registered users
+
+## Images
+
+> Password is encripted with Argon2 and saved in the DB to avoid anyone to know your password, even the system administrador.
+![mysql](https://i.imgur.com/WQdnn0U.png "Screenshoot of the Database")
+
+
+---
+
+> You only can see the information if you are registered and your token is valid.
+![data](https://i.imgur.com/ofI2tMe.png)
+![data](https://i.imgur.com/N5un5Nk.png)
