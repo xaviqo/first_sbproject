@@ -1,6 +1,6 @@
 Client Manager - My first Spring Boot API
 =
-This project it's not made to solve any specific need, apart from learning how to apply different technologies.
+This project is not made to solve any specific need, apart from learning how to apply different technologies.
 
 ## Used technologies
 
